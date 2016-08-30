@@ -2,4 +2,4 @@
 
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
-$BP_DIR/vendor/buildpack release $1
+$BP_DIR/vendor/buildpack release $1/frontend
