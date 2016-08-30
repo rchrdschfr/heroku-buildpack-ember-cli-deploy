@@ -2,4 +2,4 @@
 
 BP_DIR=$(cd $(dirname ${0:-}); cd ..; pwd)
 
-$BP_DIR/vendor/buildpack compile frontend frontend frontend/config
+$BP_DIR/vendor/buildpack compile $1/frontend $2/frontend $3/frontend
